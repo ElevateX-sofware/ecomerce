@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ecomerce.client", "ecomerce.client\ecomerce.client.esproj", "{7E3279AD-E7B2-DAC7-CB35-ACF80D1765A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecomerce.server", "ecomerce.server\ecomerce.server.csproj", "{00E1F447-5881-4439-86C2-DBE481A9098B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E3279AD-E7B2-DAC7-CB35-ACF80D1765A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E3279AD-E7B2-DAC7-CB35-ACF80D1765A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E3279AD-E7B2-DAC7-CB35-ACF80D1765A0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7E3279AD-E7B2-DAC7-CB35-ACF80D1765A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E3279AD-E7B2-DAC7-CB35-ACF80D1765A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E3279AD-E7B2-DAC7-CB35-ACF80D1765A0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{00E1F447-5881-4439-86C2-DBE481A9098B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E1F447-5881-4439-86C2-DBE481A9098B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E1F447-5881-4439-86C2-DBE481A9098B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E1F447-5881-4439-86C2-DBE481A9098B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38E31256-A898-41F0-A392-87D8548383CD}
+	EndGlobalSection
+EndGlobal
