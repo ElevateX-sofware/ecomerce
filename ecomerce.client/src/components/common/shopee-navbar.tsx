@@ -34,11 +34,8 @@ export default function ShopeeNavbar() {
 
   return (
     <div className="w-full">
-      {/* Top navbar */}
       <div className="w-full bg-[#ee4d2d] text-white">
-        {/* Upper navbar with seller, app, connect links */}
         <div className="container mx-auto px-4 py-1 flex items-center justify-between text-xs">
-          {/* Left side links - hidden on mobile */}
           <div className="hidden md:flex items-center space-x-4">
             <Popover>
               <PopoverTrigger asChild>
@@ -59,9 +56,7 @@ export default function ShopeeNavbar() {
                 </div>
               </PopoverContent>
             </Popover>
-
             <div className="h-4 w-[1px] bg-white/30"></div>
-
             <Popover>
               <PopoverTrigger asChild>
                 <Button
@@ -96,9 +91,7 @@ export default function ShopeeNavbar() {
                 </div>
               </PopoverContent>
             </Popover>
-
             <div className="h-4 w-[1px] bg-white/30"></div>
-
             <Popover>
               <PopoverTrigger asChild>
                 <Button
@@ -136,8 +129,6 @@ export default function ShopeeNavbar() {
               </PopoverContent>
             </Popover>
           </div>
-
-          {/* Mobile menu button */}
           <div className="md:hidden">
             <Sheet>
               <SheetTrigger asChild>
@@ -342,8 +333,6 @@ export default function ShopeeNavbar() {
               </SheetContent>
             </Sheet>
           </div>
-
-          {/* Right side utilities */}
           <div className="flex items-center space-x-2 md:space-x-4">
             <Popover>
               <PopoverTrigger asChild>
@@ -683,8 +672,6 @@ export default function ShopeeNavbar() {
             )}
           </div>
         </div>
-
-        {/* Main navbar with logo, search and cart */}
         <div className="container mx-auto px-4 py-2 md:py-4 flex items-center">
           <Link to="/" className="mr-2 md:mr-4">
             <div className="flex items-center">
@@ -700,10 +687,9 @@ export default function ShopeeNavbar() {
                   <path d="M24.5 2C14.3 2 6 10.3 6 20.5c0 5.4 2.3 10.3 6 13.7V46l8-4.8c1.5.3 3 .4 4.5.4 10.2 0 18.5-8.3 18.5-18.5S34.7 2 24.5 2zm0 33.3c-1.3 0-2.6-.1-3.8-.4l-6.5 3.9v-7.9c-3-2.6-4.9-6.5-4.9-10.8C9.3 12.1 16.1 5.3 24.5 5.3S39.7 12.1 39.7 20.5 32.9 35.3 24.5 35.3z" />
                 </svg>
               </div>
-              <span className="text-xl md:text-2xl font-bold ml-1 md:ml-2">Ecomerce</span>
+              <span className="text-xl font-bold ml-2 hidden md:inline">Ecomerce</span>
             </div>
           </Link>
-
           <div className="flex-1 mx-1 md:mx-4">
             <div className="relative">
               <Input
@@ -718,7 +704,6 @@ export default function ShopeeNavbar() {
               </Button>
             </div>
           </div>
-
           <Popover>
             <PopoverTrigger asChild>
               <div className="relative cursor-pointer">
@@ -795,8 +780,6 @@ export default function ShopeeNavbar() {
             </PopoverContent>
           </Popover>
         </div>
-
-        {/* Category links */}
         <div className="container mx-auto px-4 pb-2">
           <div className="flex items-center justify-center space-x-2 md:space-x-4 text-xs pb-1 max-w-full mx-auto">
             <div className="flex items-center justify-center space-x-2 md:space-x-4 overflow-x-auto scrollbar-hide">
